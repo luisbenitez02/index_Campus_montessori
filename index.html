@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Responsive Web Desing-->
+	<link rel="shortcut icon" href="two/favicon.ico"/>
+	<link rel="icon" href="two/favicon.png" type="image/png" />
+	<title>Ingreso a Campus Montessory</title>
+
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	
+</head>
+
+<body>
+	<div id="datos">
+		
+		<div id="contenedor">
+			<img id="logo" src="two/escudo_min.png" alt="Escudo Sagrada Familia">
+		</div>
+		
+		<form action="http://www.montessori.hol.es/moodle/login/index.php" method="post" id="login">
+			<h4>Usuario: </h4><input class="input" type="text" name="username" id="username" value=""></input><br>
+			<h4>Contraseña: </h4><input class="input" type="password" name="password" id="password" value=""></input>
+
+			<input name="submit" type="submit" value="Entrar" id="envio"></input>
+		</form>
+		<a id="help" href="http://www.montessori.hol.es/moodle/login/forgot_password.php">¿Olvidaste tus datos de acceso?</a>
+	</div>
+</body>
+<script src="jquery.js"></script>
+	<script src="jquery_backstretch.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</html>
